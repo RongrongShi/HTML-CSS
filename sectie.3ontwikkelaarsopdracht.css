@@ -1,0 +1,44 @@
+.deel{
+    height: 200px;
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.deel--1{
+    background-color: yellow;
+}
+.deel--2{
+
+    background-color: red;
+
+}
+.deel--3{
+    background-color: blue;
+}
+.deel--4{
+    background-color: rgb(9, 122, 107);
+
+}
+.deel--5{
+    background-color: rgb(98, 197, 221);
+}
+.deel--6{
+    background-color: purple;
+
+}
+.deel--7{
+    background-color: gray;
+
+}
+.deel--8{
+    background-color: hotpink;
+
+}
+.deel--9{
+    background-color: orangered;
+
+}

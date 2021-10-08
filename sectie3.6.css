@@ -1,0 +1,67 @@
+h1{
+    color: green;
+    font-family: Courier;
+    display: block;
+    margin: 100 px;
+    padding: 20px;
+}
+.tijger1{
+    display: block;
+    float: left;
+    padding: 80px;
+    border-width:5 px;
+    border-color: black;
+    border-style:solid ;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 200px;
+
+}
+h2{
+    color: green;
+    font-family: Courier;
+    align-self: flex-end;
+}
+h3{
+    color: red;
+    font-family: Courier;
+}
+p{
+    color: green;
+    font-family: Courier;
+    font-size: 5px;
+
+}
+.inhoud1{
+    padding: 0px;
+    margin-top: 0px;
+    float: right;
+    margin-left: 200px;
+    margin-right: 500px;
+    width: 190px;
+    height: 540px ;
+    line-height: 17px;
+}
+.inhoud2{
+    float: left;
+    padding: auto;
+}
+h4{
+    color: green;
+    font-family: Courier;
+    font-weight: bolder;
+
+}
+.link1{
+    padding: auto;
+    float: left;
+    width: 1300px;
+}
+.tekst1{
+    display: flex;
+    margin: 5px;
+    border-top: 5px solid gray;
+    width: 1550px;
+    justify-content: space-between;
+}
+
