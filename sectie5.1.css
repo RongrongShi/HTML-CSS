@@ -1,0 +1,25 @@
+.deel{
+    flex-basis: calc(100%/9);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.deel--1, .deel--5{
+    background-color: green;
+}
+.deel--2, .deel--6{
+
+    background-color: yellow;
+
+}
+.deel--3, .deel--7{
+    background-color: red;
+}
+.deel--4, .deel--8{
+    background-color: blue;
+
+}

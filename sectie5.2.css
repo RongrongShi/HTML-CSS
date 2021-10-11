@@ -1,0 +1,44 @@
+.deel{
+    flex-basis: calc(100%/5);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.deela{
+    flex-basis: calc(100%/4);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.deel--1, .deel--5{
+    background-color: green;
+}
+.deel--2, .deel--6{
+
+    background-color: yellow;
+
+}
+.deel--3, .deel--7{
+    background-color: red;
+}
+.deel--4, .deel--8{
+    background-color: blue;
+
+}
+
+.deelb{
+    flex-basis: calc(100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
