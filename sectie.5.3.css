@@ -1,0 +1,16 @@
+.titel, .titel2{
+    margin: 20px;
+    color: orangered;
+    letter-spacing: 34px;
+    flex-basis: calc(100%/3);
+    font-family: Didot, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inhoud1, .inhoud2{
+    letter-spacing: 34px;
+    flex-basis: calc(100%/3);
+    font-family: Didot,serif;
+    color: orangered;
+    padding-left: 20px;
+}
