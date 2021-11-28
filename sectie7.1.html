@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="stylesheet" href="sectie7.1.css">
+    </head>
+
+    <body style="background: hsl(15, 100%, 74%);">
+        <h1 class="titel">Flexbox</h1>
+        <div class="inhoud1">
+            <div class="inhoud2">
+                <div class="a1" style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">Container Properties</div>
+                <div class="b1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="b2"style="height: 30px; width: 730px;">//Creates a flexbox</div>
+                    <div class="b3"style="height: 30px; width: 730px;">display: flex;</div>
+                </div>
+                <div class="c1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="c2"style="height: 30px; width: 730px;">//Derection, establishe main-axis</div>
+                    <div class="c3"style="height: 30px; width: 730px;">flex-direction: row || row-reverse || column || column-reverse</div>
+                </div>
+                <div class="d1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="d2"style="height: 30px; width: 730px;">//To warp or not to wrap</div>
+                    <div class="d3"style="height: 30px; width: 730px;">flex-wrap: nowrap || wrap || wrap-reverse</div>
+                </div>
+                <div class="e1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="e2"style="height: 30px; width: 730px;">//Shorthanded(direction wrap)</div>
+                    <div class="e3"style="height: 30px; width: 730px;">flex-flow: flex-direction flex-wrap</div>
+                </div>
+                <div class="f1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="f2"style="height: 30px; width: 730px;">//Allgnement main axis</div>
+                    <div class="f3">justif-content: fkex-start || flex-end ||center || space-between || space-around || space-evenly</div>
+                </div>
+                <div class="g1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="g2"style="height: 30px; width: 730px;">//Allgnement cross axis</div>
+                    <div class="g3"style="height: 30px; width: 730px;">align-items: stretch || flex-start || flex-end || center || baseline</div>
+                </div>
+                <div class="h1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="h2"style="height: 30px; width: 730px;">//Alignement lines within the container</div>
+                    <div class="h3"style="height: 30px; width: 730px;">align-content: normal || flex-start || flex-end || center ||space-between || space-around || space-evenly || stretch</div>
+                </div>
+                <div class="s1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;"></div>
+            </div>
+            <div class="inhoud3">
+                <div class="a1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">Item Properties</div>
+                <div class="b1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="b2"style="height: 30px; width: 730px;">//order of the (flex) html-elements</div>
+                    <div class="b3"style="height: 30px; width: 730px;">order: integer (default: 0)</div>
+                </div>
+                <div class="c1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="c2"style="height: 30px; width: 730px;">//Ability to grow if necessary</div>
+                    <div class="c3"style="height: 30px; width: 730px;">flex-grow: integer (default: 0)</div>
+                </div>
+                <div class="d1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="d2"style="height: 30px; width: 730px;">//Ability to shrink if necessary</div>
+                    <div class="d3"style="height: 30px; width: 730px;">flex-shrink: positive integer (default: auto)</div>
+                </div>
+                <div class="e1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="e2"style="height: 30px; width: 730px;">//Defines default size of the item </div>
+                    <div class="e3"style="height: 30px; width: 730px;">flex-basis: length || keyword(default :auto)</div>
+                </div>
+                <div class="f1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="f2"style="height: 30px; width: 730px;">//Shorthanded (grow shrink basis)</div>
+                    <div class="f3"style="height: 30px; width: 730px;">flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</div>
+                </div>
+                <div class="g1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;">
+                    <div class="g2" style="height: 30px; width: 730px;">//Override default alignment form align-items</div>
+                    <div class="g3"style="height: 30px; width: 730px;">align-self: auto || flex-start || flex-end || center || baseline || streych</div>
+                </div>
+                <div class="s1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;"></div>
+                <div class="s1"style="height: 60px; width: 730px; border: 1px dashed rgb(70, 70, 255);margin: 1px;"></div>
+            </div>
+        </div>
+
+
+
+    </body>
+
+
+</html>

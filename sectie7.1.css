@@ -1,0 +1,39 @@
+.titel{
+    text-align: center;
+    font-family: serif;
+    font-size: 55px;
+}
+.inhoud1{
+    margin: 0 auto;
+    height: 585px;
+    width: 1500px;
+    border: 3px dashed black;
+    background-color: rgb(253, 203, 191);
+    align-items: center;
+    font-family: serif;
+    word-wrap:break-word; 
+}
+.inhoud1 .inhoud2{
+    display:inline-block;
+    width: 735px;
+    height: 570px;
+    margin: 5px;
+    border:2px dashed rgb(70, 70, 70);
+}
+.inhoud1 .inhoud3{
+    float: right;
+    width: 735px;
+    height: 570px;
+    margin: 5px;
+    border:2px dashed rgb(70, 70, 70);
+}
+.b2, .c2, .d2, .f2, .g2, .e2 , .h2{
+    background-color: rgb(255, 70, 101);
+}
+.b1, .c1, .d1, .e1, .f1, .h1, .g1{
+    text-align: center;
+}
+.a1{
+    text-align:center;
+    line-height:50px;
+}
